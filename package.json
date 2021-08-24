@@ -1,0 +1,29 @@
+{
+	"name": "paperscroll-api",
+	"version": "1.0.0",
+	"description": "Модуль для работы с PaperScroll API",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "imdrov",
+	"license": "MIT",
+	"dependencies": {
+		"request": "^2.88.2",
+		"request-promise": "^4.2.6"
+	},
+	"keywords": [
+		"api",
+		"vk",
+		"paperscroll",
+		"paperscroll-api"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imdrov/paperscroll-api.git"
+	},
+	"devDependencies": {
+		"@types/request-promise": "^4.1.48"
+	}
+}
